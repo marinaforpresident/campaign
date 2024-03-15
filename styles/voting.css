@@ -1,0 +1,28 @@
+@font-face {
+    font-family: myFont;
+    src:url(../Heavitas.ttf)
+}
+#mobile {
+    display:none;
+}
+
+#desktop {
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 8%;
+    font-size: x-large;
+}
+#desktop h1 {
+    font-family: myFont;
+    font-size: 200%;
+}
+
+@media only screen and (max-width: 760px) {
+    #desktop{
+        display: none;
+    }
+    #mobile{
+        display: block;
+    }
+  }

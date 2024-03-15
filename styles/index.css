@@ -1,0 +1,338 @@
+@font-face {
+    font-family: myFont;
+    src:url(../Heavitas.ttf)
+}
+
+#content {
+    background-image:url(../images/marinahomepage.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+.Titles h1 {
+    font-size:150px;
+    font-family: 'myFont';
+    color: #890000;
+    line-height: 80%;
+  }
+
+.Titles h6 {
+    font-family: "myFont";
+    font-size: x-large;
+    color: #001d74;
+}
+
+.Titles h4 {
+    font-family: "myFont";
+    font-size: 38px;
+    color: #001d74;
+}
+  .Titles a {
+    text-decoration: none;
+    display: inline-block;
+    border: 3px solid #001d74;
+    color: #001d74;
+    padding:14px 70px;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+.Titles {
+    padding: 5%;
+    padding-top: 9%;
+    padding-left: 6%;
+}
+
+#statement {
+    background-color: #001d74;
+    color: #FFFFFF;
+    padding: 5%;
+}
+
+#statement p {
+    font-size: larger;
+}
+
+#statement a {
+    text-decoration: none;
+}
+
+#mobile {
+    display: none;
+    background-image:url(../images/marina\ homepage\ mobile\ 2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-size: 100%;
+}
+
+#mobile a {
+    text-decoration: none;
+    display: inline-block;
+    border: 3px solid #001d74;
+    color: #001d74;
+    padding:8px 70px;
+    border-radius: 30px;
+    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+#buttons {
+    padding-top: 370px;
+    padding-left: 6%;
+    padding-bottom: 20px;
+
+}
+
+@media only screen and (max-width: 1242px) {
+    .Titles h1{
+        font-size: 110px;
+    }
+    .Titles h6 {
+        font-family: "myFont";
+        font-size: large;
+        color: #001d74;
+    }
+    
+    .Titles h4 {
+        font-family: "myFont";
+        font-size: 34px;
+        color: #001d74;
+    }
+  }
+
+  @media only screen and (max-width: 1095px) {
+    .Titles h1{
+        font-size: 110px;
+    }
+    .Titles h6 {
+        font-family: "myFont";
+        font-size: large;
+        color: #001d74;
+    }
+    
+    .Titles h4 {
+        font-family: "myFont";
+        font-size: 30px;
+        color: #001d74;
+    }
+    .Titles a {
+        padding:12px 50px;
+    }
+  }
+
+  @media only screen and (max-width: 984px) {
+    .Titles h1{
+        font-size: 110px;
+    }
+    .Titles h6 {
+        font-family: "myFont";
+        font-size: large;
+        color: #001d74;
+    }
+    
+    .Titles h4 {
+        font-family: "myFont";
+        font-size: 26px;
+        color: #001d74;
+    }
+  }
+
+  @media only screen and (max-width: 885px) {
+    .Titles h1{
+        font-size: 90px;
+    }
+    .Titles h6 {
+        font-family: "myFont";
+        font-size: large;
+        color: #001d74;
+    }
+    
+    .Titles h4 {
+        font-family: "myFont";
+        font-size: 23px;
+        color: #001d74;
+    }
+
+    .Titles a {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+  }
+
+
+
+@media only screen and (max-width: 760px) {
+    #content{
+        display: none;
+    }
+    #mobile{
+        display: block;
+    }
+  }
+
+
+  @media only screen and (max-width: 733px) {
+
+    #buttons {
+        padding-top: 350px;
+        padding-left: 6%;
+        padding-bottom: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 710px) {
+
+    #buttons {
+        padding-top: 320px;
+        padding-left: 6%;
+        padding-bottom: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 652px) {
+
+    #buttons {
+        padding-top: 310px;
+        padding-left: 6%;
+        padding-bottom: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 636px) {
+
+    #buttons {
+        padding-top: 300px;
+        padding-left: 6%;
+        padding-bottom: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 625px) {
+
+    #buttons {
+        padding-top: 290px;
+        padding-left: 6%;
+        padding-bottom: 20px;
+    }
+    #mobile a {
+      padding:8px 50px;
+      border-radius: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 614px) {
+
+    #mobile a {
+      padding:8px 50px;
+      border-radius: 30px;
+      font-size: smaller;
+    }
+  }
+
+  @media only screen and (max-width: 540px) {
+
+    #mobile a {
+      padding:6px 50px;
+      border-radius: 30px;
+      font-size: smaller;
+      border: 2px solid #001d74;
+    }
+
+    #buttons {
+        padding-top: 250px;
+        padding-left: 6%;
+        padding-bottom: 20px;
+    }
+
+    #statement p {
+        font-size: smaller;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 440px) {
+
+    #mobile a {
+      padding:6px 50px;
+      border-radius: 30px;
+      font-size: 9px;
+      margin-top: 5px;
+    }
+
+    #buttons {
+        padding-top: 215px;
+        padding-left: 6%;
+        padding-bottom: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 415px) {
+
+    #mobile a {
+      padding:6px 50px;
+      border-radius: 30px;
+      font-size: 9px;
+      margin-top: 5px;
+    }
+
+    #buttons {
+        padding-top: 206px;
+        padding-left: 6%;
+        padding-bottom: 25px;
+    }
+  }
+
+  @media only screen and (max-width: 410px) {
+
+    #mobile a {
+      padding:6px 50px;
+      border-radius: 30px;
+      font-size: 9px;
+      margin-top: 5px;
+    }
+
+    #buttons {
+        padding-top: 200px;
+        padding-left: 6%;
+        padding-bottom: 25px;
+    }
+  }
+
+  @media only screen and (max-width: 404px) {
+
+    #mobile a {
+      padding:6px 50px;
+      border-radius: 30px;
+      font-size: 9px;
+      margin-top: 5px;
+    }
+
+    #buttons {
+        padding-top: 185px;
+        padding-left: 6%;
+        padding-bottom: 25px;
+    }
+  }
+
+  @media only screen and (max-width: 380px) {
+
+    #mobile a {
+      padding:4px 45px;
+      border-radius: 30px;
+      font-size: 9px;
+      margin-top: 5px;
+    }
+
+    #buttons {
+        padding-top: 175px;
+        padding-left: 6%;
+        padding-bottom: 25px;
+    }
+  }
+
+ 
+
+
+  
