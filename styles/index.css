@@ -230,7 +230,14 @@
     }
   }
 
-  @media only screen and (max-width: 540px) {
+  @media only screen and (max-width: 594px) {
+    #buttons {
+      padding-top: 280px;
+      padding-bottom: 30px;
+  }
+  }
+
+  @media only screen and (max-width: 584px) {
 
     #mobile a {
       padding:6px 50px;
@@ -240,7 +247,7 @@
     }
 
     #buttons {
-        padding-top: 250px;
+        padding-top: 280px;
         padding-left: 6%;
         padding-bottom: 20px;
     }
@@ -249,7 +256,40 @@
         font-size: smaller;
     }
   }
+  @media only screen and (max-width: 563px) {
+    #buttons{
+      padding-top: 260px;
+  }
+}
 
+@media only screen and (max-width: 563px) {
+  #buttons{
+    padding-top: 250px;
+}
+}
+
+  @media only screen and (max-width: 520px) {
+    #buttons {
+      padding-top: 240px;
+      padding-left: 6%;
+      padding-bottom: 20px;
+  }
+  }
+  @media only screen and (max-width: 509px){
+    #buttons{
+      padding-top: 230px;
+  }
+}
+@media only screen and (max-width: 490px){
+  #buttons{
+    padding-top: 220px;
+}
+}
+@media only screen and (max-width: 480px){
+  #buttons{
+    padding-top: 210px;
+}
+}
 
 
   @media only screen and (max-width: 440px) {
@@ -329,6 +369,19 @@
         padding-top: 175px;
         padding-left: 6%;
         padding-bottom: 25px;
+    }
+  }
+  @media only screen and (max-width: 281px)
+  {
+    #buttons{
+      padding-top: 135px;
+      padding-bottom: 20px;
+    }
+    #mobile a {
+      padding:2px 30px;
+      border-radius: 30px;
+      font-size: 6px;
+      margin-top: 3px;
     }
   }
 
